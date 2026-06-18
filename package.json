@@ -1,12 +1,11 @@
 {
   "name": "e_commerce_backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node db.js",
-    "type": "module"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +14,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/sadhanas1612-hub/e_commerce_backend/issues"
   },
