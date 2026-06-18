@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 
 
 dotenv.config();
-const api = express();
+
 api.use(express.json());
 api.use(cors({ origin: 'http://localhost:5173' }));
 
