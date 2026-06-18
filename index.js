@@ -11,7 +11,7 @@ api.use(cors({ origin: 'http://localhost:5173' }));
 
 
 const bcrypt = require("bcrypt");
-const db = require("./db");
+
 
 const router = express.Router();
 
