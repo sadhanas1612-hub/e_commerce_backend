@@ -5,11 +5,11 @@ import dotenv from "dotenv";
 
 
 dotenv.config();
-
+const api = express();
 api.use(express.json());
 api.use(cors({ origin: 'http://localhost:5173' }));
 
-const express = require("express");
+
 const bcrypt = require("bcrypt");
 const db = require("./db");
 
