@@ -10,10 +10,7 @@ api.use(express.json());
 api.use(cors({ origin: 'http://localhost:5173' }));
 
 
-const bcrypt = require("bcrypt");
 
-
-const router = express.Router();
 
 router.post("/signup", async (req, res) => {
 const { name, email, password } = req.body;
