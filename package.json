@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
+    "start": "node db.js",
+    "type": "module"
   },
   "repository": {
     "type": "git",
@@ -28,3 +30,4 @@
     "nodemon": "^3.1.14"
   }
 }
+  
